@@ -6,7 +6,7 @@ This project was developed to demonstrate a deep mathematical understanding of n
 It predicts continuous real estate prices based on 6 input features using a custom **6 → 8 → 1 architecture**. By manually implementing forward propagation, mean squared error loss, backpropagation (calculus chain rule), and stochastic gradient descent, the model successfully overcomes the vanishing gradient problem using **Leaky ReLU** and **He Initialization**.
 
 ## Architecture Overview
-![Custom Neural Network Forward Structure](nn output.png)
+![Custom Neural Network Forward Structure](<nn output.png>)
 
 The custom neural network forward structure is explicitly designed for continuous regression[cite: 1]:
 * **Input Layer (6 Neurons):** Ingests scaled data features, represented as nodes X1 through X6[cite: 1].
