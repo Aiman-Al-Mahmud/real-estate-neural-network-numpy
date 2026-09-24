@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+
+
+
+Why these three?
+
+numpy: The core engine of your project. It handles all the matrix multiplication, random number generation (He Initialization), and math operations.
+
+pandas: Used at the very beginning to load your Real_Estate.csv file into a DataFrame and separate the columns (df.iloc).
+
+scikit-learn: Used exclusively for the data preparation phase to split the data (train_test_split) and scale the numbers mathematically (StandardScaler).
